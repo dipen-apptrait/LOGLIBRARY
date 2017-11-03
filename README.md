@@ -7,43 +7,66 @@ A loggin framework for use in Android application. It allows you to log error, w
 ## USAGE
 
 *1. To log an error*
-- Instead of ```Log.e(“LOGLIBRARY”,”Print	Error”);``` just write ```logError("Print	Error");```
+- Instead of ```Log.e(“LOGLIBRARY”,”Print	Error”);``` just write ```LogLib.logError("Print	Error");```
 
 *2. To log a debug message*
-- Instead of ```Log.d(“LOGLIBRARY”,”Print	Debug Message”);``` just write ```logDebug("Print	Debug Message");```
+- Instead of ```Log.d(“LOGLIBRARY”,”Print	Debug Message”);``` just write ```LogLib.logDebug("Print	Debug Message");```
 
 *3. To log an info message*
-- Instead of ```Log.i(“LOGLIBRARY”,”Print	Info Message”);``` just write ```logInfo("Print	Info Message");```
+- Instead of ```Log.i(“LOGLIBRARY”,”Print	Info Message”);``` just write ```LogLib.logInfo("Print	Info Message");```
 
 
  ## Gradle
+ 
+ Step 1. Add the JitPack repository to your build file
+ 
+ Add it in your root build.gradle at the end of repositories:
+ 
 ``` 
-repositories {
-  maven { url '' }
-}
+     allprojects {
+         repositories {
+             jcenter()
+             maven { url "https://jitpack.io" }
+         }
+    }
 ```
+
+Step 2. Add the dependency
+
+``` compile 'com.github.dipen-apptrait:LOGLIBRARY:0.1.0'```
+
 
  ## Tutorial
  
  1. Create a new Android Studio Project called Log Demo
  
- 2. ```In app/build.gradle```, add the following dependencies:
+ 2. You need to add following gradle dependencies in yours ```project/build.gradle``` (Root gradle file):
  ``` 
- repositories {
-  maven { url '' }
- }
+     allprojects {
+         repositories {
+             jcenter()
+             maven { url "https://jitpack.io" }
+         }
+    }
  ```
+ 
+ And add following gradle dependencies in yours ```app/build.gradle```:
+ 
+``` compile 'com.github.dipen-apptrait:LOGLIBRARY:0.1.0'```
+ 
  3. Now open your activity
  
  - To log an error write 
- ```logError("This is an Error");```
+ ```LogLib.logError("This is an Error");```
 
  - To log an info message 
- ```logInfo("This is an Info Message");```
+ ```LogLib.logInfo("This is an Info Message");```
 
  - To log a debug message  
- ```logDebug("This is a Debug Message");```
+ ```LogLib.logDebug("This is a Debug Message");```
 
  4. Buid and Run application
  
  5. Open Logcat window and you can see a log messages as attached.
+ 
+ ![alt text](http://apptraitsolutions.com/images/logcat.png)
