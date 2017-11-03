@@ -73,7 +73,7 @@ Step 2. Add the dependency
  - To log a debug message  
  ```LogLib.logDebug("This is a Debug Message");```
 
- 5. Buid and Run application
+ 5. Build and Run application
  
  6. Open Logcat window and you can see a log messages as attached.
  
