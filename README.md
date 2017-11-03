@@ -33,9 +33,11 @@ A loggin framework for use in Android application. It allows you to log error, w
 
 Step 2. Add the dependency
 
-```dependencies {
+``` 
+    dependencies {
           compile 'com.github.dipen-apptrait:LOGLIBRARY:0.1.0'
-   }```
+    }
+```
 
 
  ## Tutorial
@@ -54,7 +56,11 @@ Step 2. Add the dependency
  
  3. Add following gradle dependencies in yours ```app/build.gradle```:
  
-``` compile 'com.github.dipen-apptrait:LOGLIBRARY:0.1.0'```
+``` 
+    dependencies {
+          compile 'com.github.dipen-apptrait:LOGLIBRARY:0.1.0'
+    }
+```
  
  4. Now open your activity
  
