@@ -50,11 +50,11 @@ Step 2. Add the dependency
     }
  ```
  
- And add following gradle dependencies in yours ```app/build.gradle```:
+ 3. Add following gradle dependencies in yours ```app/build.gradle```:
  
 ``` compile 'com.github.dipen-apptrait:LOGLIBRARY:0.1.0'```
  
- 3. Now open your activity
+ 4. Now open your activity
  
  - To log an error write 
  ```LogLib.logError("This is an Error");```
@@ -65,8 +65,8 @@ Step 2. Add the dependency
  - To log a debug message  
  ```LogLib.logDebug("This is a Debug Message");```
 
- 4. Buid and Run application
+ 5. Buid and Run application
  
- 5. Open Logcat window and you can see a log messages as attached.
+ 6. Open Logcat window and you can see a log messages as attached.
  
  ![alt text](http://apptraitsolutions.com/images/logcat.png)
