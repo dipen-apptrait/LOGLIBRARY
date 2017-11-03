@@ -12,9 +12,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        LogLib.logDebug("This is forDebug");
-        LogLib.logError("This is for error");
-        LogLib.logInfo("This is for Log information");
+        LogLib.logDebug("This is for Debug");
+        LogLib.logError("This is for Error");
+        LogLib.logInfo("This is for Info message");
 
     }
 }
