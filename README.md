@@ -39,10 +39,10 @@ repositories {
  ```logError("This is an Error");```
 
  - To log an info message 
- ```logError("This is an Info Message");```
+ ```logInfo("This is an Info Message");```
 
- - To log a warning  
- ```logError("This is a Warrning");```
+ - To log a debug message  
+ ```logDebug("This is a Debug Message");```
 
  4. Buid and Run application
  
