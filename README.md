@@ -77,4 +77,5 @@ Step 2. Add the dependency
  
  6. Open Logcat window and you can see a log messages as attached.
  
- ![alt text](http://apptraitsolutions.com/images/logcat.png)
+
+ With the ranking as [Top Mobile App Development Company in India](https://apptraitsolutions.com), hire our skilled [android app developer](https://apptraitsolutions.com/hire-android-app-developer/) on Hourly | Part-time | Full-time basis. We will help you to develop an innovative android app as per requirements, budget & time limit. 
